@@ -1631,6 +1631,9 @@ GameObject:
   - component: {fileID: 2803820877819704065}
   - component: {fileID: 952466434731520831}
   - component: {fileID: 4551469949035510638}
+  - component: {fileID: 5407374955446428763}
+  - component: {fileID: 4454776867695550873}
+  - component: {fileID: -504382540014864113}
   m_Layer: 0
   m_Name: Horse
   m_TagString: Untagged
@@ -1692,7 +1695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74fc96408ca779d43a826537e4f22980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 4.78
 --- !u!114 &4551469949035510638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1703,6 +1706,66 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a850d0cccb1d62247a594738d1f8eb77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &5407374955446428763
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7461806475837678747}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 12.09, y: 36.2, z: 44.63}
+  m_Center: {x: 0, y: 17.9, z: 4.44}
+--- !u!54 &4454776867695550873
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7461806475837678747}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &-504382540014864113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7461806475837678747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c798307f86b631946acd7fd948938b87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7490763406029366831
